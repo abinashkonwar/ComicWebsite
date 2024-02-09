@@ -1,0 +1,102 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(202, 198, 198);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #48613c;
+    color: rgb(199, 197, 197);
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.comic_note{
+    padding: 20px 500px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.book1_title{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    color: rgb(204, 82, 82);
+}
+
+.page_block{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(56, 56, 56);
+}
+
+.page{
+    padding: 20px 30px 20px 30px;
+    width: 600px;
+    border-radius: 50px;
+}
+
+.collection{
+    padding: 20px 0px 20px 200px;
+}
+
+.collection_title{
+    font-size: 35px;
+}
+
+.collection_items{
+    font-size: 20px;
+}
+
+.form_main{
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+form{
+    padding: 10px 500px;
+    background-color: rgb(204, 231, 255);
+    box-shadow: 0 0 11px 8px black;
+}
+
+.line{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.line_sub{
+    padding: 0 30px;
+}
+
+.btn{
+    cursor: pointer;
+    outline: 0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+footer{
+    background-color: #48613c;
+    color: rgb(210, 226, 240);
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}

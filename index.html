@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avi's Comics Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        AVI's COMICS
+    </header>
+
+    <main>
+        <div class="comic_note">
+            <p>Comics are a powerful medium for storytelling, blending captivating visuals with witty text to enthrall audiences of all ages. They typically take the form of sequential panels depicting a narrative, often utilizing speech bubbles, sound effects, and captions to enrich the experience.</p>
+            <p>
+            More than just funny pages: While humor is a prevalent element in many comics, their scope extends far beyond lighthearted jokes. Comics tackle diverse themes, ranging from superhero sagas and historical events to personal journeys and social commentary. Genres abound, from the fantastical realms of science fiction to the gritty realities of crime noir.</p>
+            <p>A global language: From the vibrant world of manga in Japan to the iconic superheroes of American comics, the art form transcends geographical boundaries. Each region contributes unique styles and storytelling approaches, adding to the richness of the medium.</p>
+            <p>Evolution and impact: Comics have evolved over time, from their early newspaper strips to the complex graphic novels of today. They have left an undeniable mark on popular culture, influencing movies, video games, and even fashion.
+            </p>
+        </div>
+        <!-- <h1 class="book1_title">In Bits by Philip Barrett</h1> -->
+        <div class="page_block">
+            <h1 class="book1_title">In Bits by Philip Barrett</h1>
+            <img src="1.jpg" alt="1st Comic Page" class="page">
+            <img src="2.jpg" alt="2nd Comic Page" class="page">
+        </div>
+        <div class="page_block">
+            <img src="3.jpg" alt="3rd Comic Page" class="page">
+            <img src="4.jpg" alt="4th Comic Page" class="page">
+        </div>
+        <div class="page_block">
+            <img src="5.jpg" alt="5th Comic Page" class="page">
+            <img src="6.jpg" alt="6th Comic Page" class="page">
+        </div>
+        <div class="page_block">
+            <img src="7.jpg" alt="7th Comic Page" class="page">
+            <img src="8.jpg" alt="8th Comic Page" class="page">
+        </div>
+        <div class="page_block">
+            <img src="9.jpg" alt="9th Comic Page" class="page">
+        </div>
+
+
+
+        <div class="collection">
+            <h1 class="collection_title">Some more in my collection:</h1>
+            <ul class="collection_items">
+                <li><a href="#">How you know you’ve made it, by city.</a></li>
+                <li><a href="#">Love poems for married people.</a></li>
+                <li><a href="#">Ways the woke mob has affected me personally.</a></li>
+                <li><a href="#">I cannot begin to tell you how proficient I am in Microsoft Word.</a></li>
+                <li><a href="#">Relationship advice from your aunt who has been divorced six times.</a></li>
+            </ul>
+        </div>
+
+        <div class="form_main">
+            <h1>Sign Up for more such contents</h1>
+            <form>
+                <div class="line">
+                    <div class="line_sub">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" id="fname" name="fname" placeholder="Enter First Name" required>
+                    </div>
+                    <div class="line_sub">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required>
+                    </div>
+                </div>
+
+                <div class="line">
+                    <div class="line_sub">
+                        <label for="gender">Gender:</label>
+                        <input type="text" id="gender" name="gender" placeholder="Enter Last Name" required>
+                    </div>
+                    <div class="line_sub">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter Email ID" required>
+                    </div>
+                </div>
+
+                <div class="line">
+                    <label for="genres">Choose your favorite genres: </label>
+                    <select id="genre" name="generes">
+                        <option value="Superhero">Superhero</option>
+                        <option value="Sci-Fi">Science Fiction</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Fantasy">Fantasy</option>
+                        <option value="Humor">Humor</option>
+                        <option value="Romance">Romance</option>
+                    </select>
+                </div>
+
+                <div class="line">
+                    <div class="line_sub">
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" placeholder="Enter Age">
+                    </div>
+                    <div class="line_sub">
+                        <label for="contact_no">Phone No.:</label>
+                        <input type="tel" name="contact_no" id="contact_no" pattern="\d{10}$" required>
+                    </div>
+                </div>
+                <button class="btn">Submit</button>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
