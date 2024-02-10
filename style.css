@@ -15,12 +15,21 @@ header {
     text-align: center;
     font-size: 35px;
     font-weight: 800;
+    position: sticky;
+    top: 0;
 }
 
 .comic_note{
     padding: 20px 500px 20px;
     font-size: 20px;
     font-weight: 700;
+}
+
+.carousel_start{
+    width: 900px;
+    height: 650px;
+    margin: 0 auto;
+    width: fit-content;
 }
 
 .book1_title{
